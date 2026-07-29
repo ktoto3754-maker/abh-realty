@@ -1,0 +1,1784 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Премиум Агентство Недвижимости в Абхазии | Элитная недвижимость у моря</title>
+    <meta name="description" content="Премиальное агентство недвижимости в Абхазии. Подбор квартир, домов и участков у моря. Полное юридическое сопровождение сделок. Инвестиции в недвижимость Абхазии с доходностью до 12% годовых.">
+    <meta name="keywords" content="недвижимость Абхазия, купить квартиру Абхазия, дом у моря Абхазия, элитная недвижимость, инвестиции Абхазия, агентство недвижимости Абхазия">
+    <meta property="og:title" content="Премиум Агентство Недвижимости в Абхазии">
+    <meta property="og:description" content="Подберем квартиру, дом или участок у моря. Полное сопровождение сделки. Инвестируйте в недвижимость Абхазии.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0B1F3A;
+            --primary-light: #132d54;
+            --gold: #D4AF37;
+            --gold-light: #e6c75a;
+            --gold-dark: #b8942c;
+            --white: #FFFFFF;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-400: #9ca3af;
+            --gray-500: #6b7280;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+            --gray-900: #111827;
+            --radius-sm: 12px;
+            --radius: 16px;
+            --radius-lg: 24px;
+            --radius-xl: 32px;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 12px 48px rgba(0, 0, 0, 0.12);
+            --shadow-xl: 0 24px 64px rgba(0, 0, 0, 0.16);
+            --shadow-gold: 0 8px 40px rgba(212, 175, 55, 0.25);
+            --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            --max-width: 1320px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--white);
+            color: var(--gray-800);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* ========== TYPOGRAPHY ========== */
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+            font-weight: 600;
+            line-height: 1.2;
+            color: var(--primary);
+        }
+        h1 {
+            font-size: clamp(2.2rem, 5vw, 3.8rem);
+            letter-spacing: -0.02em;
+        }
+        h2 {
+            font-size: clamp(1.8rem, 4vw, 3rem);
+            letter-spacing: -0.01em;
+        }
+        h3 {
+            font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+        }
+        .section-label {
+            display: inline-block;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--gold-dark);
+            margin-bottom: 0.75rem;
+        }
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--gray-500);
+            margin-top: 0.75rem;
+            max-width: 600px;
+            line-height: 1.7;
+        }
+
+        /* ========== CONTAINER ========== */
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 clamp(1.25rem, 4vw, 3rem);
+        }
+        .section {
+            padding: clamp(3.5rem, 8vw, 7rem) 0;
+        }
+
+        /* ========== HEADER / NAV ========== */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 1rem 0;
+            transition: var(--transition);
+        }
+        .header.scrolled {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            padding: 0.6rem 0;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 clamp(1.25rem, 4vw, 3rem);
+        }
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--white);
+            letter-spacing: -0.01em;
+            transition: var(--transition);
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .header.scrolled .logo {
+            color: var(--primary);
+            text-shadow: none;
+        }
+        .logo-accent {
+            color: var(--gold);
+            transition: var(--transition);
+        }
+        .header.scrolled .logo-accent {
+            color: var(--gold-dark);
+        }
+        .header-phone {
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            font-size: 0.95rem;
+            color: var(--white);
+            text-decoration: none;
+            padding: 0.55rem 1.4rem;
+            border: 1.5px solid rgba(255, 255, 255, 0.5);
+            border-radius: 50px;
+            transition: var(--transition);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            background: rgba(255, 255, 255, 0.08);
+            white-space: nowrap;
+            letter-spacing: 0.02em;
+        }
+        .header-phone:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: var(--white);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+        }
+        .header.scrolled .header-phone {
+            color: var(--primary);
+            border-color: var(--primary);
+            background: transparent;
+        }
+        .header.scrolled .header-phone:hover {
+            background: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+            box-shadow: var(--shadow-gold);
+        }
+
+        /* ========== HERO ========== */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            isolation: isolate;
+        }
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            z-index: -2;
+        }
+        .hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 40%;
+            filter: brightness(0.55);
+            transform: scale(1.05);
+            animation: heroZoom 20s ease-in-out infinite alternate;
+        }
+        @keyframes heroZoom {
+            from {
+                transform: scale(1.05);
+            }
+            to {
+                transform: scale(1.12);
+            }
+        }
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            background: linear-gradient(180deg,
+                    rgba(11, 31, 58, 0.75) 0%,
+                    rgba(11, 31, 58, 0.55) 40%,
+                    rgba(11, 31, 58, 0.7) 100%);
+        }
+        .hero .container {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: clamp(2rem, 5vw, 4rem);
+            align-items: center;
+            padding-top: 5rem;
+            padding-bottom: 3rem;
+        }
+        .hero-content {
+            color: var(--white);
+        }
+        .hero-content h1 {
+            color: var(--white);
+            margin-bottom: 1.25rem;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+        .hero-content .hero-subtitle {
+            font-size: clamp(1rem, 1.8vw, 1.2rem);
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+            max-width: 500px;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.9rem 2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            letter-spacing: 0.02em;
+            white-space: nowrap;
+            outline: none;
+        }
+        .btn:active {
+            transform: scale(0.96);
+        }
+        .btn-primary {
+            background: var(--gold);
+            color: var(--primary);
+            font-weight: 600;
+            box-shadow: 0 4px 24px rgba(212, 175, 55, 0.35);
+        }
+        .btn-primary:hover {
+            background: var(--gold-light);
+            box-shadow: 0 8px 36px rgba(212, 175, 55, 0.5);
+            transform: translateY(-2px);
+        }
+        .btn-outline {
+            background: transparent;
+            color: var(--white);
+            border: 1.5px solid rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+        .btn-outline:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: var(--white);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        .btn-ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(0);
+            animation: ripple 0.7s ease-out;
+            pointer-events: none;
+        }
+        @keyframes ripple {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+        .hero-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(28px);
+            -webkit-backdrop-filter: blur(28px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: var(--radius-lg);
+            padding: clamp(1.5rem, 3vw, 2.5rem);
+            color: var(--white);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            transition: var(--transition);
+        }
+        .hero-card:hover {
+            background: rgba(255, 255, 255, 0.14);
+            box-shadow: 0 24px 72px rgba(0, 0, 0, 0.35);
+            transform: translateY(-4px);
+        }
+        .hero-card h3 {
+            color: var(--white);
+            font-size: 1.3rem;
+            margin-bottom: 1.25rem;
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-card-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.85rem;
+            padding: 0.7rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        .hero-card-item:last-child {
+            border-bottom: none;
+        }
+        .hero-card-icon {
+            flex-shrink: 0;
+            width: 28px;
+            height: 28px;
+            background: rgba(212, 175, 55, 0.25);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            color: var(--gold-light);
+        }
+
+        /* ========== ADVANTAGES ========== */
+        .advantages {
+            background: var(--gray-50);
+        }
+        .advantages-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+        .advantage-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            padding: 2rem 1.5rem;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 1px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+        .advantage-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+            opacity: 0;
+            transition: var(--transition);
+            border-radius: 0 0 2px 2px;
+        }
+        .advantage-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+            border-color: rgba(212, 175, 55, 0.2);
+        }
+        .advantage-card:hover::before {
+            opacity: 1;
+        }
+        .advantage-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 1.25rem;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.12), rgba(212, 175, 55, 0.04));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            transition: var(--transition);
+        }
+        .advantage-card:hover .advantage-icon {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.22), rgba(212, 175, 55, 0.08));
+            transform: scale(1.08);
+        }
+        .advantage-card h3 {
+            font-size: 1.05rem;
+            margin-bottom: 0.5rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+        }
+        .advantage-card p {
+            font-size: 0.88rem;
+            color: var(--gray-500);
+            line-height: 1.6;
+        }
+
+        /* ========== CATALOG ========== */
+        .catalog-header {
+            text-align: center;
+            margin-bottom: 3.5rem;
+        }
+        .catalog-header .section-subtitle {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.75rem;
+        }
+        .property-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            cursor: pointer;
+            border: 1px solid transparent;
+            group: true;
+        }
+        .property-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-xl);
+            border-color: rgba(212, 175, 55, 0.2);
+        }
+        .property-card-image {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 4/3;
+            overflow: hidden;
+        }
+        .property-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .property-card:hover .property-card-image img {
+            transform: scale(1.06);
+        }
+        .property-card-badge {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: var(--gold);
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 0.8rem;
+            padding: 0.35rem 0.9rem;
+            border-radius: 50px;
+            letter-spacing: 0.03em;
+            z-index: 2;
+        }
+        .property-card-body {
+            padding: 1.5rem;
+        }
+        .property-card-price {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.3rem;
+        }
+        .property-card-name {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+            color: var(--gray-800);
+        }
+        .property-card-location {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+        .property-card-meta {
+            display: flex;
+            gap: 1.25rem;
+            font-size: 0.82rem;
+            color: var(--gray-600);
+            padding-top: 0.85rem;
+            border-top: 1px solid var(--gray-200);
+        }
+        .property-card-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .property-card .btn {
+            width: 100%;
+            margin-top: 1rem;
+            padding: 0.7rem 1.5rem;
+            font-size: 0.88rem;
+            border-radius: 50px;
+            background: transparent;
+            color: var(--primary);
+            border: 1.5px solid var(--primary);
+            font-weight: 500;
+        }
+        .property-card .btn:hover {
+            background: var(--primary);
+            color: var(--white);
+            box-shadow: var(--shadow-gold);
+        }
+
+        /* ========== INVESTMENT ========== */
+        .investment {
+            background: var(--primary);
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+            isolation: isolate;
+        }
+        .investment::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse at 30% 50%, rgba(212, 175, 55, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 30%, rgba(212, 175, 55, 0.05) 0%, transparent 50%);
+            z-index: -1;
+        }
+        .investment h2 {
+            color: var(--white);
+            text-align: center;
+            margin-bottom: 0.75rem;
+        }
+        .investment .section-subtitle {
+            color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 3.5rem;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            text-align: center;
+        }
+        .stat-card {
+            padding: 2rem 1rem;
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: var(--transition);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+        .stat-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(212, 175, 55, 0.3);
+            transform: translateY(-4px);
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+        }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 700;
+            color: var(--gold);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        .stat-label {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 400;
+        }
+
+        /* ========== HOW WE WORK ========== */
+        .how-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        .how-header .section-subtitle {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .timeline {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            position: relative;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 48px;
+            left: 12%;
+            right: 12%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold-dark), var(--gold));
+            z-index: 0;
+            border-radius: 1px;
+        }
+        .timeline-step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            transition: var(--transition);
+        }
+        .timeline-step:hover {
+            transform: translateY(-6px);
+        }
+        .step-circle {
+            width: 56px;
+            height: 56px;
+            margin: 0 auto 1.5rem;
+            background: var(--white);
+            border: 2px solid var(--gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--gold-dark);
+            position: relative;
+            z-index: 1;
+            transition: var(--transition);
+            box-shadow: var(--shadow);
+        }
+        .timeline-step:hover .step-circle {
+            background: var(--gold);
+            color: var(--white);
+            box-shadow: var(--shadow-gold);
+            border-color: var(--gold);
+        }
+        .timeline-step h3 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 0.4rem;
+        }
+        .timeline-step p {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            line-height: 1.5;
+        }
+
+        /* ========== REVIEWS ========== */
+        .reviews {
+            background: var(--gray-50);
+        }
+        .reviews-header {
+            text-align: center;
+            margin-bottom: 3.5rem;
+        }
+        .reviews-header .section-subtitle {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.75rem;
+        }
+        .review-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 1px solid transparent;
+        }
+        .review-card:hover {
+            box-shadow: var(--shadow-lg);
+            border-color: rgba(212, 175, 55, 0.15);
+            transform: translateY(-3px);
+        }
+        .review-stars {
+            color: var(--gold);
+            font-size: 1rem;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.85rem;
+        }
+        .review-text {
+            font-size: 0.95rem;
+            color: var(--gray-600);
+            line-height: 1.7;
+            margin-bottom: 1.25rem;
+            font-style: italic;
+        }
+        .review-author {
+            display: flex;
+            align-items: center;
+            gap: 0.85rem;
+        }
+        .review-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--gold);
+        }
+        .review-author-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--primary);
+        }
+        .review-author-role {
+            font-size: 0.8rem;
+            color: var(--gray-500);
+        }
+
+        /* ========== FAQ ========== */
+        .faq-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .faq-header .section-subtitle {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+        }
+        .faq-item {
+            background: var(--white);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--gray-200);
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        .faq-item.active {
+            border-color: rgba(212, 175, 55, 0.3);
+            box-shadow: var(--shadow);
+        }
+        .faq-question {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 1.4rem 1.5rem;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--primary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            text-align: left;
+            line-height: 1.4;
+            transition: var(--transition-fast);
+        }
+        .faq-question:hover {
+            color: var(--gold-dark);
+        }
+        .faq-icon {
+            flex-shrink: 0;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--gray-100);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            font-size: 1.1rem;
+            color: var(--gray-600);
+        }
+        .faq-item.active .faq-icon {
+            background: var(--gold);
+            color: var(--white);
+            transform: rotate(45deg);
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .faq-item.active .faq-answer {
+            max-height: 300px;
+        }
+        .faq-answer-inner {
+            padding: 0 1.5rem 1.4rem;
+            color: var(--gray-600);
+            font-size: 0.93rem;
+            line-height: 1.7;
+        }
+
+        /* ========== CTA ========== */
+        .cta-section {
+            position: relative;
+            overflow: hidden;
+            isolation: isolate;
+            padding: clamp(4rem, 8vw, 6rem) 0;
+        }
+        .cta-bg {
+            position: absolute;
+            inset: 0;
+            z-index: -2;
+        }
+        .cta-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.45);
+        }
+        .cta-overlay {
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            background: linear-gradient(135deg,
+                    rgba(11, 31, 58, 0.88) 0%,
+                    rgba(11, 31, 58, 0.7) 100%);
+        }
+        .cta-content {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .cta-content h2 {
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+        .cta-content p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+        }
+        .cta-content .btn-primary {
+            font-size: 1.05rem;
+            padding: 1rem 2.5rem;
+        }
+
+        /* ========== FOOTER ========== */
+        .footer {
+            background: var(--primary);
+            color: rgba(255, 255, 255, 0.75);
+            padding: clamp(3rem, 6vw, 5rem) 0 2rem;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.3fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        .footer-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+        .footer-brand span {
+            color: var(--gold);
+        }
+        .footer-desc {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: rgba(255, 255, 255, 0.55);
+            max-width: 300px;
+        }
+        .footer h4 {
+            color: var(--white);
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 1.25rem;
+        }
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.65rem;
+        }
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: var(--transition-fast);
+        }
+        .footer-links a:hover {
+            color: var(--gold-light);
+        }
+        .footer-contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 0.6rem;
+            text-decoration: none;
+            transition: var(--transition-fast);
+        }
+        .footer-contact-item:hover {
+            color: var(--gold-light);
+        }
+        .footer-social {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+        .footer-social a {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.06);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.7);
+            transition: var(--transition);
+            font-size: 1.1rem;
+        }
+        .footer-social a:hover {
+            background: var(--gold);
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1.5rem;
+            text-align: center;
+            font-size: 0.82rem;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        /* ========== REVEAL ANIMATIONS ========== */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+                transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .reveal-delay-1 {
+            transition-delay: 0.1s;
+        }
+        .reveal-delay-2 {
+            transition-delay: 0.2s;
+        }
+        .reveal-delay-3 {
+            transition-delay: 0.3s;
+        }
+        .reveal-delay-4 {
+            transition-delay: 0.4s;
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 1280px) {
+            .catalog-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .timeline::before {
+                left: 8%;
+                right: 8%;
+                top: 42px;
+            }
+            .step-circle {
+                width: 46px;
+                height: 46px;
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .hero .container {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding-top: 6rem;
+            }
+            .hero-content .hero-subtitle {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .hero-buttons {
+                justify-content: center;
+            }
+            .hero-card {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+            .advantages-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .timeline {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2.5rem 1.5rem;
+            }
+            .timeline::before {
+                display: none;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .reviews-grid {
+                grid-template-columns: 1fr;
+                max-width: 550px;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .catalog-grid {
+                grid-template-columns: 1fr;
+                max-width: 480px;
+                margin: 0 auto;
+            }
+            .advantages-grid {
+                gap: 1rem;
+            }
+            .advantage-card {
+                padding: 1.5rem 1rem;
+            }
+            .advantage-icon {
+                width: 48px;
+                height: 48px;
+                font-size: 1.3rem;
+            }
+            .timeline {
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem 1rem;
+            }
+            .stats-grid {
+                gap: 1.25rem;
+            }
+            .stat-card {
+                padding: 1.5rem 0.75rem;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            .hero-buttons .btn {
+                width: 100%;
+                max-width: 320px;
+            }
+            .header-phone {
+                font-size: 0.8rem;
+                padding: 0.45rem 1rem;
+            }
+            .logo {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .advantages-grid {
+                grid-template-columns: 1fr;
+            }
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 0.85rem;
+            }
+            .timeline {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .reviews-grid {
+                grid-template-columns: 1fr;
+            }
+            .property-card-body {
+                padding: 1.2rem;
+            }
+            .property-card-price {
+                font-size: 1.3rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            .section {
+                padding: 2.5rem 0;
+            }
+            .faq-question {
+                font-size: 0.9rem;
+                padding: 1.1rem 1.2rem;
+            }
+            .faq-answer-inner {
+                padding: 0 1.2rem 1.1rem;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+        <div class="header-inner">
+            <a href="#" class="logo" aria-label="На главную">Elite<span class="logo-accent">Abkhazia</span></a>
+            <a href="tel:+79407777777" class="header-phone">+7 (940) 777-77-77</a>
+        </div>
+    </header>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80"
+            alt="Побережье Абхазии" loading="eager">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content reveal">
+                <h1>Недвижимость в Абхазии,<br>в которую хочется<br>инвестировать</h1>
+                <p class="hero-subtitle">Подберем квартиру, дом или участок у моря. Полное сопровождение сделки — от первого звонка до ключей.</p>
+                <div class="hero-buttons">
+                    <a href="#cta" class="btn btn-primary">Получить подборку объектов</a>
+                    <a href="#cta" class="btn btn-outline">Бесплатная консультация</a>
+                </div>
+            </div>
+            <div class="hero-card reveal reveal-delay-2">
+                <h3>Почему выбирают нас</h3>
+                <div class="hero-card-item">
+                    <div class="hero-card-icon">✓</div>
+                    <span>Более 300 успешных сделок за 8 лет работы</span>
+                </div>
+                <div class="hero-card-item">
+                    <div class="hero-card-icon">✓</div>
+                    <span>Прямой доступ к собственникам без посредников</span>
+                </div>
+                <div class="hero-card-item">
+                    <div class="hero-card-icon">✓</div>
+                    <span>Юридическая чистота каждого объекта</span>
+                </div>
+                <div class="hero-card-item">
+                    <div class="hero-card-icon">✓</div>
+                    <span>Персональный менеджер на всех этапах</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ADVANTAGES ==================== -->
+    <section class="section advantages" id="advantages">
+        <div class="container">
+            <div class="catalog-header reveal">
+                <span class="section-label">Наши преимущества</span>
+                <h2>Работаем так,<br>чтобы вы рекомендовали нас</h2>
+                <p class="section-subtitle">Каждая сделка — это репутация. Мы дорожим каждым клиентом и подходим к делу с максимальной ответственностью.</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card reveal reveal-delay-1">
+                    <div class="advantage-icon">🔍</div>
+                    <h3>Проверенные объекты</h3>
+                    <p>Каждый объект проходит юридическую проверку перед публикацией в каталоге</p>
+                </div>
+                <div class="advantage-card reveal reveal-delay-2">
+                    <div class="advantage-icon">⚖️</div>
+                    <h3>Юридическое сопровождение</h3>
+                    <p>Полное сопровождение сделки: от проверки документов до регистрации права</p>
+                </div>
+                <div class="advantage-card reveal reveal-delay-3">
+                    <div class="advantage-icon">🤝</div>
+                    <h3>Работаем напрямую</h3>
+                    <p>Прямой доступ к собственникам. Никаких скрытых комиссий и лишних звеньев</p>
+                </div>
+                <div class="advantage-card reveal reveal-delay-4">
+                    <div class="advantage-icon">💬</div>
+                    <h3>Бесплатная консультация</h3>
+                    <p>Поможем определить бюджет, локацию и тип недвижимости под ваши задачи</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CATALOG ==================== -->
+    <section class="section" id="catalog">
+        <div class="container">
+            <div class="catalog-header reveal">
+                <span class="section-label">Каталог объектов</span>
+                <h2>Лучшие предложения<br>на рынке Абхазии</h2>
+                <p class="section-subtitle">Тщательно отобранные объекты — от уютных квартир до роскошных вилл на побережье.</p>
+            </div>
+            <div class="catalog-grid">
+                <!-- Card 1 -->
+                <div class="property-card reveal reveal-delay-1">
+                    <div class="property-card-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80"
+                        alt="Вилла у моря в Гагре" loading="lazy">
+                        <span class="property-card-badge">Новинка</span>
+                    </div>
+                    <div class="property-card-body">
+                        <div class="property-card-price">28 500 000 ₽</div>
+                        <div class="property-card-name">Вилла с видом на море</div>
+                        <div class="property-card-location">📍 Гагрский район, побережье</div>
+                        <div class="property-card-meta">
+                            <span>🛏 5 комнат</span>
+                            <span>📐 320 м²</span>
+                            <span>🌊 1-я линия</span>
+                        </div>
+                        <a href="#cta" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="property-card reveal reveal-delay-2">
+                    <div class="property-card-image">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=600&q=80"
+                        alt="Дом в Пицунде" loading="lazy">
+                        <span class="property-card-badge">Топ</span>
+                    </div>
+                    <div class="property-card-body">
+                        <div class="property-card-price">19 200 000 ₽</div>
+                        <div class="property-card-name">Дом с садом в Пицунде</div>
+                        <div class="property-card-location">📍 Пицунда, сосновая роща</div>
+                        <div class="property-card-meta">
+                            <span>🛏 4 комнаты</span>
+                            <span>📐 210 м²</span>
+                            <span>🌿 Участок 8 сот.</span>
+                        </div>
+                        <a href="#cta" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="property-card reveal reveal-delay-3">
+                    <div class="property-card-image">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80"
+                        alt="Апартаменты в Сухуме" loading="lazy">
+                    </div>
+                    <div class="property-card-body">
+                        <div class="property-card-price">11 800 000 ₽</div>
+                        <div class="property-card-name">Апартаменты в центре Сухума</div>
+                        <div class="property-card-location">📍 Сухум, набережная</div>
+                        <div class="property-card-meta">
+                            <span>🛏 3 комнаты</span>
+                            <span>📐 120 м²</span>
+                            <span>🏙 Панорамный вид</span>
+                        </div>
+                        <a href="#cta" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="property-card reveal reveal-delay-1">
+                    <div class="property-card-image">
+                        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=600&q=80"
+                        alt="Квартира у моря" loading="lazy">
+                    </div>
+                    <div class="property-card-body">
+                        <div class="property-card-price">7 400 000 ₽</div>
+                        <div class="property-card-name">Квартира у моря в Новом Афоне</div>
+                        <div class="property-card-location">📍 Новый Афон, 2-я линия</div>
+                        <div class="property-card-meta">
+                            <span>🛏 2 комнаты</span>
+                            <span>📐 78 м²</span>
+                            <span>🏖 300 м до пляжа</span>
+                        </div>
+                        <a href="#cta" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="property-card reveal reveal-delay-2">
+                    <div class="property-card-image">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=600&q=80"
+                        alt="Участок на берегу" loading="lazy">
+                        <span class="property-card-badge">Инвестиция</span>
+                    </div>
+                    <div class="property-card-body">
+                        <div class="property-card-price">5 600 000 ₽</div>
+                        <div class="property-card-name">Участок на берегу моря</div>
+                        <div class="property-card-location">📍 Гудаутский район</div>
+                        <div class="property-card-meta">
+                            <span>📐 10 сот.</span>
+                            <span>🌊 1-я линия</span>
+                            <span>🔌 Коммуникации</span>
+                        </div>
+                        <a href="#cta" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="property-card reveal reveal-delay-3">
+                    <div class="property-card-image">
+                        <img src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=600&q=80"
+                        alt="Таунхаус в Гагре" loading="lazy">
+                    </div>
+                    <div class="property-card-body">
+                        <div class="property-card-price">15 300 000 ₽</div>
+                        <div class="property-card-name">Таунхаус с террасой</div>
+                        <div class="property-card-location">📍 Гагра, Старая Гагра</div>
+                        <div class="property-card-meta">
+                            <span>🛏 3 комнаты</span>
+                            <span>📐 165 м²</span>
+                            <span>🏔 Вид на горы</span>
+                        </div>
+                        <a href="#cta" class="btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== INVESTMENT ==================== -->
+    <section class="section investment" id="investment">
+        <div class="container">
+            <div class="reveal">
+                <span class="section-label" style="color:rgba(212,175,55,0.8);">Инвестиции</span>
+                <h2>Почему инвесторы<br>выбирают Абхазию</h2>
+                <p class="section-subtitle">Рынок недвижимости Абхазии стабильно растёт. Мягкий климат, близость к морю и растущий турпоток делают инвестиции особенно привлекательными.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card reveal reveal-delay-1">
+                    <div class="stat-number"><span class="counter" data-target="12">0</span>%</div>
+                    <div class="stat-label">Средняя доходность в год</div>
+                </div>
+                <div class="stat-card reveal reveal-delay-2">
+                    <div class="stat-number"><span class="counter" data-target="300">0</span>+</div>
+                    <div class="stat-label">Проданных объектов</div>
+                </div>
+                <div class="stat-card reveal reveal-delay-3">
+                    <div class="stat-number"><span class="counter" data-target="8">0</span></div>
+                    <div class="stat-label">Лет на рынке</div>
+                </div>
+                <div class="stat-card reveal reveal-delay-4">
+                    <div class="stat-number"><span class="counter" data-target="95">0</span>%</div>
+                    <div class="stat-label">Довольных клиентов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== HOW WE WORK ==================== -->
+    <section class="section" id="how">
+        <div class="container">
+            <div class="how-header reveal">
+                <span class="section-label">Как мы работаем</span>
+                <h2>4 шага к вашей<br>недвижимости у моря</h2>
+                <p class="section-subtitle" style="margin-left:auto;margin-right:auto;">Прозрачный процесс — от первой консультации до оформления права собственности.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-step reveal reveal-delay-1">
+                    <div class="step-circle">1</div>
+                    <h3>Консультация</h3>
+                    <p>Обсудим ваши цели, бюджет и предпочтения. Определим критерии поиска.</p>
+                </div>
+                <div class="timeline-step reveal reveal-delay-2">
+                    <div class="step-circle">2</div>
+                    <h3>Подбор объектов</h3>
+                    <p>Сформируем персональную подборку из проверенных вариантов.</p>
+                </div>
+                <div class="timeline-step reveal reveal-delay-3">
+                    <div class="step-circle">3</div>
+                    <h3>Просмотр</h3>
+                    <p>Организуем показы в удобное время. Ответим на все вопросы на месте.</p>
+                </div>
+                <div class="timeline-step reveal reveal-delay-4">
+                    <div class="step-circle">4</div>
+                    <h3>Оформление</h3>
+                    <p>Юридическое сопровождение сделки и полная поддержка до получения ключей.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== REVIEWS ==================== -->
+    <section class="section reviews" id="reviews">
+        <div class="container">
+            <div class="reviews-header reveal">
+                <span class="section-label">Отзывы</span>
+                <h2>Что говорят<br>наши клиенты</h2>
+                <p class="section-subtitle" style="margin-left:auto;margin-right:auto;">Реальные истории людей, которые уже нашли свою недвижимость с нашей помощью.</p>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card reveal reveal-delay-1">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">«Обратились за подбором дома у моря. Через две недели уже смотрели подходящие варианты. Сделку провели чисто, без задержек. Очень довольны сервисом — чувствуется европейский подход.»</p>
+                    <div class="review-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80"
+                        alt="Алексей М." class="review-avatar" loading="lazy">
+                        <div>
+                            <div class="review-author-name">Алексей М.</div>
+                            <div class="review-author-role">Приобрёл дом в Пицунде</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card reveal reveal-delay-2">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">«Инвестировали в квартиру в Гагре. Менеджер помог просчитать доходность, организовал просмотр. Через полгода стоимость выросла на 18%. Планируем покупать ещё.»</p>
+                    <div class="review-author">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80"
+                        alt="Елена В." class="review-avatar" loading="lazy">
+                        <div>
+                            <div class="review-author-name">Елена В.</div>
+                            <div class="review-author-role">Инвестор, Москва</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card reveal reveal-delay-3">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">«Переезжали из Сибири. Боялись, что будет сложно с документами. Но команда всё взяла на себя — от подбора до регистрации. Спасибо за профессионализм!»</p>
+                    <div class="review-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&q=80"
+                        alt="Сергей К." class="review-avatar" loading="lazy">
+                        <div>
+                            <div class="review-author-name">Сергей К.</div>
+                            <div class="review-author-role">Приобрёл квартиру в Сухуме</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card reveal reveal-delay-4">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">«Искали участок для строительства. Показали 8 вариантов за 3 дня. Честно рассказали про все нюансы и подводные камни. Редкая честность на рынке недвижимости.»</p>
+                    <div class="review-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&q=80"
+                        alt="Марина Д." class="review-avatar" loading="lazy">
+                        <div>
+                            <div class="review-author-name">Марина Д.</div>
+                            <div class="review-author-role">Купила участок в Гудауте</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FAQ ==================== -->
+    <section class="section" id="faq">
+        <div class="container">
+            <div class="faq-header reveal">
+                <span class="section-label">FAQ</span>
+                <h2>Часто задаваемые<br>вопросы</h2>
+                <p class="section-subtitle" style="margin-left:auto;margin-right:auto;">Собрали ответы на самые популярные вопросы о покупке недвижимости в Абхазии.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item reveal reveal-delay-1">
+                    <button class="faq-question" aria-expanded="false">
+                        Могут ли иностранные граждане покупать недвижимость в Абхазии?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Да, иностранные граждане, в том числе граждане России, могут свободно приобретать недвижимость в Абхазии. Законодательство Абхазии не накладывает ограничений на покупку жилья иностранцами. Мы поможем оформить все необходимые документы.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-2">
+                    <button class="faq-question" aria-expanded="false">
+                        Какие документы нужны для оформления сделки?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Стандартный пакет включает: паспорт покупателя, нотариально заверенный договор купли-продажи, документы на объект от продавца. Мы берём на себя проверку всех документов и полное сопровождение сделки, включая нотариальное оформление.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-3">
+                    <button class="faq-question" aria-expanded="false">
+                        Насколько надёжны инвестиции в недвижимость Абхазии?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Рынок недвижимости Абхазии демонстрирует устойчивый рост на протяжении последних 10 лет. Средняя доходность от аренды составляет 8–12% годовых, а рост стоимости объектов — 10–18% в год. Туристический поток растёт, что делает инвестиции особенно привлекательными.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-4">
+                    <button class="faq-question" aria-expanded="false">
+                        Сколько времени занимает полное оформление?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">При наличии полного пакета документов у продавца сделка оформляется за 3–7 рабочих дней. Регистрация права собственности занимает до 14 дней. Мы сопровождаем клиента на всех этапах и держим в курсе процесса.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CTA ==================== -->
+    <section class="cta-section" id="cta">
+        <div class="cta-bg">
+            <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1920&q=80"
+            alt="Недвижимость мечты" loading="lazy">
+        </div>
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content reveal">
+                <span class="section-label" style="color:rgba(212,175,55,0.9);">Начните сейчас</span>
+                <h2>Подберем недвижимость<br>вашей мечты</h2>
+                <p>Оставьте заявку, и персональный менеджер свяжется с вами в течение 15 минут. Подготовим индивидуальную подборку объектов под ваш запрос.</p>
+                <a href="#cta-form" class="btn btn-primary" id="cta-main-btn">Оставить заявку</a>
+                <form id="cta-form" style="display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center;margin-top:2rem;max-width:500px;margin-left:auto;margin-right:auto;">
+                    <input type="text" name="name" placeholder="Ваше имя" required
+                    style="flex:1;min-width:200px;padding:0.9rem 1.4rem;border-radius:50px;border:1.5px solid rgba(255,255,255,0.4);background:rgba(255,255,255,0.1);color:#fff;font-family:'Inter',sans-serif;font-size:0.95rem;outline:none;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:var(--transition-fast);">
+                    <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required
+                    style="flex:1;min-width:200px;padding:0.9rem 1.4rem;border-radius:50px;border:1.5px solid rgba(255,255,255,0.4);background:rgba(255,255,255,0.1);color:#fff;font-family:'Inter',sans-serif;font-size:0.95rem;outline:none;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:var(--transition-fast);">
+                    <button type="submit" class="btn btn-primary" style="white-space:nowrap;">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">Elite<span style="color:var(--gold);">Abkhazia</span></div>
+                    <p class="footer-desc">Премиальное агентство недвижимости в Абхазии. Помогаем находить, инвестировать и оформлять недвижимость у моря с 2016 года.</p>
+                    <div class="footer-social">
+                        <a href="https://t.me/eliteabkhazia" target="_blank" rel="noopener" aria-label="Telegram">✈</a>
+                        <a href="https://wa.me/79407777777" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+                        <a href="https://instagram.com/eliteabkhazia" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+                        <a href="mailto:info@eliteabkhazia.ru" aria-label="Email">✉</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="#catalog">Каталог</a></li>
+                        <li><a href="#investment">Инвестиции</a></li>
+                        <li><a href="#how">Как мы работаем</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Услуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="#catalog">Квартиры</a></li>
+                        <li><a href="#catalog">Дома и виллы</a></li>
+                        <li><a href="#catalog">Участки</a></li>
+                        <li><a href="#cta">Консультация</a></li>
+                        <li><a href="#cta">Оценка объекта</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Контакты</h4>
+                    <a href="tel:+79407777777" class="footer-contact-item">📞 +7 (940) 777-77-77</a>
+                    <a href="https://t.me/eliteabkhazia" target="_blank" rel="noopener" class="footer-contact-item">✈ Telegram: @eliteabkhazia</a>
+                    <a href="https://wa.me/79407777777" target="_blank" rel="noopener" class="footer-contact-item">💬 WhatsApp</a>
+                    <a href="mailto:info@eliteabkhazia.ru" class="footer-contact-item">✉ info@eliteabkhazia.ru</a>
+                    <div class="footer-contact-item">📍 Абхазия, г. Сухум, ул. Набережная, 15</div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 EliteAbkhazia. Все права защищены. Агентство недвижимости в Абхазии.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script>
+        (function() {
+            // === HEADER SCROLL EFFECT ===
+            const header = document.getElementById('header');
+            let lastScroll = 0;
+            const scrollHandler = () => {
+                const currentScroll = window.pageYOffset;
+                if (currentScroll > 60) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+                lastScroll = currentScroll;
+            };
+            window.addEventListener('scroll', scrollHandler, { passive: true });
+            scrollHandler();
+
+            // === INTERSECTION OBSERVER — REVEAL ANIMATIONS ===
+            const revealElements = document.querySelectorAll('.reveal');
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.12,
+                rootMargin: '0px 0px -40px 0px'
+            });
+            revealElements.forEach(el => revealObserver.observe(el));
+
+            // === COUNTER ANIMATION ===
+            const counterElements = document.querySelectorAll('.counter');
+            const counterObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const counter = entry.target;
+                        const target = parseInt(counter.getAttribute('data-target'), 10);
+                        const duration = 1800;
+                        const startTime = performance.now();
+                        const animate = (currentTime) => {
+                            const elapsed = currentTime - startTime;
+                            const progress = Math.min(elapsed / duration, 1);
+                            const eased = 1 - Math.pow(1 - progress, 3);
+                            const current = Math.round(eased * target);
+                            counter.textContent = current;
+                            if (progress < 1) {
+                                requestAnimationFrame(animate);
+                            } else {
+                                counter.textContent = target;
+                            }
+                        };
+                        requestAnimationFrame(animate);
+                        counterObserver.unobserve(counter);
+                    }
+                });
+            }, {
+                threshold: 0.4
+            });
+            counterElements.forEach(el => counterObserver.observe(el));
+
+            // === RIPPLE EFFECT ON BUTTONS ===
+            document.querySelectorAll('.btn').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    const rect = this.getBoundingClientRect();
+                    const size = Math.max(rect.width, rect.height) * 2;
+                    const x = e.clientX - rect.left - size / 2;
+                    const y = e.clientY - rect.top - size / 2;
+                    const ripple = document.createElement('span');
+                    ripple.className = 'btn-ripple';
+                    ripple.style.width = size + 'px';
+                    ripple.style.height = size + 'px';
+                    ripple.style.left = x + 'px';
+                    ripple.style.top = y + 'px';
+                    this.appendChild(ripple);
+                    ripple.addEventListener('animationend', () => ripple.remove());
+                });
+            });
+
+            // === FAQ ACCORDION ===
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const button = item.querySelector('.faq-question');
+                button.addEventListener('click', () => {
+                    const isActive = item.classList.contains('active');
+                    // Close all
+                    faqItems.forEach(i => {
+                        i.classList.remove('active');
+                        i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                    });
+                    // Open clicked (if wasn't active)
+                    if (!isActive) {
+                        item.classList.add('active');
+                        button.setAttribute('aria-expanded', 'true');
+                    }
+                });
+            });
+
+            // === SMOOTH SCROLL FOR ANCHOR LINKS ===
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        e.preventDefault();
+                        const headerOffset = 80;
+                        const elementPosition = target.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset -
+                            headerOffset;
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // === CTA FORM SUBMISSION ===
+            const ctaForm = document.getElementById('cta-form');
+            if (ctaForm) {
+                ctaForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const name = this.querySelector('input[name="name"]').value.trim();
+                    const phone = this.querySelector('input[name="phone"]').value.trim();
+                    if (name && phone) {
+                        // Simulate submission
+                        const btn = this.querySelector('button[type="submit"]');
+                        const originalText = btn.textContent;
+                        btn.textContent = 'Отправлено ✓';
+                        btn.style.background = '#2e7d32';
+                        btn.style.color = '#fff';
+                        btn.style.pointerEvents = 'none';
+                        setTimeout(() => {
+                            btn.textContent = originalText;
+                            btn.style.background = '';
+                            btn.style.color = '';
+                            btn.style.pointerEvents = '';
+                            ctaForm.reset();
+                            alert(
+                                'Спасибо! Ваша заявка принята. Менеджер свяжется с вами в ближайшее время.');
+                        }, 2000);
+                    }
+                });
+            }
+
+            // === PARALLAX SUBTLE EFFECT ON HERO (optional, lightweight) ===
+            const heroBg = document.querySelector('.hero-bg img');
+            if (heroBg && window.innerWidth > 768) {
+                const parallaxHandler = () => {
+                    const scrollY = window.pageYOffset;
+                    const heroSection = document.getElementById('hero');
+                    if (!heroSection) return;
+                    const heroHeight = heroSection.offsetHeight;
+                    if (scrollY <= heroHeight) {
+                        const offset = scrollY * 0.25;
+                        heroBg.style.transform = `scale(1.05) translateY(${offset}px)`;
+                    }
+                };
+                window.addEventListener('scroll', parallaxHandler, { passive: true });
+            }
+
+            console.log('%c🏛️ EliteAbkhazia %cPremium Real Estate',
+                'font-size:1.2em;font-weight:bold;color:#D4AF37;',
+                'color:#0B1F3A;');
+            console.log('%cГотовы помочь вам найти недвижимость мечты в Абхазии.',
+                'color:#6b7280;');
+        })();
+    </script>
+</body>
+</html>
