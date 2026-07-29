@@ -1,0 +1,2167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMINÉ — Премиальная студия маникюра и педикюра | Москва</title>
+    <meta name="description" content="LUMINÉ — премиальная студия маникюра и педикюра в Москве. Идеальный сервис, стерильность, опытные мастера. Запишитесь онлайн за 30 секунд.">
+    <meta name="keywords" content="маникюр, педикюр, студия маникюра, премиальный маникюр, nail studio, Москва, дизайн ногтей, наращивание, SPA-уход">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://lumine-studio.ru/">
+    <meta property="og:title" content="LUMINÉ — Премиальная студия маникюра и педикюра">
+    <meta property="og:description" content="Маникюр, в который невозможно не влюбиться. Современная nail-студия с идеальным сервисом.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://lumine-studio.ru/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LUMINÉ — Премиальная студия маникюра и педикюра">
+    <meta name="twitter:description" content="Маникюр, в который невозможно не влюбиться. Запишитесь онлайн.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1200&q=80">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23d4a574'/><text x='16' y='22' text-anchor='middle' font-size='18' fill='white' font-family='serif'>L</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BeautySalon",
+            "name": "LUMINÉ",
+            "description": "Премиальная студия маникюра и педикюра в Москве",
+            "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1200&q=80",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "ул. Большая Дмитровка, 20/5",
+                "addressLocality": "Москва",
+                "postalCode": "107031",
+                "addressCountry": "RU"
+            },
+            "telephone": "+7 (495) 123-45-67",
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                    "opens": "09:00",
+                    "closes": "21:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Saturday", "Sunday"],
+                    "opens": "10:00",
+                    "closes": "20:00"
+                }
+            ],
+            "priceRange": "от 2500₽",
+            "currenciesAccepted": "RUB",
+            "paymentAccepted": "Наличные, Банковские карты, Apple Pay"
+        }
+    </script>
+    <style>
+        :root {
+            --white: #ffffff;
+            --cream: #fdfaf7;
+            --milk: #faf7f3;
+            --beige-light: #f5ede4;
+            --beige: #e8d5c4;
+            --beige-dark: #d4b896;
+            --gold: #c8a882;
+            --gold-dark: #b8946e;
+            --nude: #d4a574;
+            --nude-light: #f0dcc8;
+            --gray-50: #f9f8f7;
+            --gray-100: #f5f3f1;
+            --gray-200: #e8e5e2;
+            --gray-300: #d4d1ce;
+            --gray-400: #a8a5a2;
+            --gray-500: #787572;
+            --gray-600: #5c5956;
+            --gray-700: #3d3a38;
+            --gray-800: #242220;
+            --gray-900: #1a1816;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+            --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.04);
+            --shadow-xl: 0 24px 64px rgba(0, 0, 0, 0.1), 0 8px 24px rgba(0, 0, 0, 0.05);
+            --shadow-gold: 0 8px 32px rgba(200, 168, 130, 0.25);
+            --radius-sm: 12px;
+            --radius-md: 20px;
+            --radius-lg: 28px;
+            --radius-xl: 36px;
+            --radius-full: 9999px;
+            --transition-fast: 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+            --transition-smooth: 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
+            --transition-spring: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+            --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+            --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--cream);
+            color: var(--gray-800);
+            line-height: 1.6;
+            overflow-x: hidden;
+            cursor: default;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        /* Mouse Glow */
+        .mouse-glow {
+            position: fixed;
+            pointer-events: none;
+            z-index: 9999;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(212, 165, 116, 0.06) 0%, rgba(212, 165, 116, 0.02) 30%, transparent 70%);
+            transform: translate(-50%, -50%);
+            transition: opacity 0.4s;
+            will-change: left, top;
+            opacity: 0;
+        }
+        body:hover .mouse-glow {
+            opacity: 1;
+        }
+
+        /* Sticky Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 16px 0;
+            transition: all var(--transition-smooth);
+            background: transparent;
+        }
+        .header.scrolled {
+            background: rgba(253, 250, 247, 0.85);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            box-shadow: var(--shadow-md);
+            padding: 10px 0;
+        }
+        .header-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            color: var(--white);
+            text-decoration: none;
+            transition: color var(--transition-smooth);
+            text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+        }
+        .header.scrolled .logo {
+            color: var(--gray-800);
+            text-shadow: none;
+        }
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+            align-items: center;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.875rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            transition: color var(--transition-fast);
+            position: relative;
+        }
+        .header.scrolled .nav-links a {
+            color: var(--gray-600);
+        }
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 1.5px;
+            background: var(--nude);
+            transition: width var(--transition-smooth);
+        }
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        .nav-links a:hover {
+            color: var(--nude);
+        }
+        .header-cta {
+            background: var(--nude);
+            color: #fff !important;
+            padding: 10px 22px;
+            border-radius: var(--radius-full);
+            font-weight: 600;
+            font-size: 0.85rem;
+            letter-spacing: 0.02em;
+            transition: all var(--transition-smooth);
+            white-space: nowrap;
+        }
+        .header-cta:hover {
+            background: var(--gold-dark);
+            box-shadow: var(--shadow-gold);
+            transform: translateY(-1px);
+        }
+        .header-cta::after {
+            display: none !important;
+        }
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            width: 36px;
+            height: 36px;
+            flex-direction: column;
+            justify-content: center;
+            gap: 6px;
+            z-index: 1001;
+            padding: 4px;
+        }
+        .mobile-menu-btn span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--white);
+            border-radius: 2px;
+            transition: all var(--transition-smooth);
+        }
+        .header.scrolled .mobile-menu-btn span {
+            background: var(--gray-800);
+        }
+
+        /* Sections */
+        .section {
+            padding: 100px 40px;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        .section-label {
+            font-family: var(--font-body);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--nude);
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 600;
+            color: var(--gray-800);
+            letter-spacing: 0.02em;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+        .section-subtitle {
+            font-size: 1.05rem;
+            color: var(--gray-500);
+            font-weight: 400;
+            max-width: 600px;
+            line-height: 1.7;
+        }
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .section-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        /* Hero */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            background: var(--gray-900);
+        }
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+        }
+        .hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.55);
+        }
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.15) 40%, rgba(0, 0, 0, 0.4) 100%);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 120px 40px 80px;
+            display: grid;
+            grid-template-columns: 1fr 380px;
+            gap: 60px;
+            align-items: center;
+            width: 100%;
+        }
+        .hero-text {
+            max-width: 620px;
+        }
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5.5vw, 4.2rem);
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.1;
+            letter-spacing: 0.01em;
+            margin-bottom: 20px;
+        }
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.7;
+            margin-bottom: 36px;
+            font-weight: 400;
+            max-width: 480px;
+        }
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 32px;
+            border-radius: var(--radius-full);
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+            transition: all var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .btn-primary {
+            background: var(--nude);
+            color: #fff;
+            box-shadow: 0 4px 20px rgba(212, 165, 116, 0.35);
+        }
+        .btn-primary:hover {
+            background: var(--gold-dark);
+            box-shadow: var(--shadow-gold);
+            transform: translateY(-2px);
+        }
+        .btn-outline {
+            background: transparent;
+            color: #fff;
+            border: 1.5px solid rgba(255, 255, 255, 0.5);
+        }
+        .btn-outline:hover {
+            border-color: #fff;
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-2px);
+        }
+        .btn-ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(0);
+            animation: ripple 0.6s ease-out;
+            pointer-events: none;
+        }
+        @keyframes ripple {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+        .hero-card {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: var(--radius-lg);
+            padding: 32px 28px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+        }
+        .hero-card-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        .hero-card-icon {
+            flex-shrink: 0;
+            width: 22px;
+            height: 22px;
+            color: #f0c88a;
+            margin-top: 2px;
+        }
+        .hero-card-icon svg {
+            width: 100%;
+            height: 100%;
+            fill: #f0c88a;
+        }
+        .hero-card-highlight {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #f0c88a;
+            font-family: var(--font-display);
+            letter-spacing: 0.02em;
+            line-height: 1;
+        }
+        .hero-card-highlight span {
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Services */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .service-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-smooth);
+            cursor: pointer;
+            position: relative;
+        }
+        .service-card:hover {
+            box-shadow: var(--shadow-xl);
+            transform: translateY(-4px);
+        }
+        .service-card-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+            transition: transform var(--transition-smooth);
+        }
+        .service-card:hover .service-card-image {
+            transform: scale(1.04);
+        }
+        .service-card-body {
+            padding: 24px;
+        }
+        .service-card-title {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            margin-bottom: 6px;
+        }
+        .service-card-desc {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            line-height: 1.5;
+            margin-bottom: 14px;
+        }
+        .service-card-price {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--nude);
+            margin-bottom: 16px;
+        }
+        .service-card .btn {
+            padding: 10px 24px;
+            font-size: 0.8rem;
+            width: 100%;
+            background: var(--gray-100);
+            color: var(--gray-700);
+            border-radius: var(--radius-full);
+        }
+        .service-card .btn:hover {
+            background: var(--nude);
+            color: #fff;
+            box-shadow: var(--shadow-gold);
+        }
+
+        /* Why Us */
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .why-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            padding: 36px 28px;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-smooth);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .why-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 3px;
+            background: var(--nude);
+            border-radius: 0 0 4px 4px;
+            transition: width var(--transition-smooth);
+        }
+        .why-card:hover::before {
+            width: 60px;
+        }
+        .why-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-3px);
+        }
+        .why-icon {
+            width: 56px;
+            height: 56px;
+            margin: 0 auto 18px;
+            background: var(--beige-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            transition: all var(--transition-smooth);
+        }
+        .why-card:hover .why-icon {
+            background: var(--nude-light);
+            transform: scale(1.08);
+        }
+        .why-card-title {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            margin-bottom: 6px;
+        }
+        .why-card-desc {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            line-height: 1.5;
+        }
+
+        /* Gallery */
+        .gallery-filters {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 36px;
+        }
+        .gallery-filter {
+            padding: 10px 22px;
+            border-radius: var(--radius-full);
+            border: 1.5px solid var(--gray-200);
+            background: var(--white);
+            cursor: pointer;
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--gray-600);
+            transition: all var(--transition-fast);
+            letter-spacing: 0.02em;
+        }
+        .gallery-filter.active,
+        .gallery-filter:hover {
+            background: var(--nude);
+            color: #fff;
+            border-color: var(--nude);
+            box-shadow: var(--shadow-gold);
+        }
+        .gallery-masonry {
+            columns: 3;
+            column-gap: 20px;
+        }
+        .gallery-item {
+            break-inside: avoid;
+            margin-bottom: 20px;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            cursor: pointer;
+            position: relative;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-smooth);
+            display: block;
+        }
+        .gallery-item:hover {
+            box-shadow: var(--shadow-xl);
+            transform: translateY(-3px);
+        }
+        .gallery-item img {
+            width: 100%;
+            display: block;
+            transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+        .gallery-item:hover img {
+            transform: scale(1.06);
+        }
+        .gallery-item-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.25);
+            opacity: 0;
+            transition: opacity var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .gallery-item:hover .gallery-item-overlay {
+            opacity: 1;
+        }
+        .gallery-item-overlay span {
+            color: #fff;
+            font-size: 1.8rem;
+            font-weight: 300;
+        }
+
+        /* Lightbox */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 10000;
+            background: rgba(0, 0, 0, 0.92);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+            cursor: pointer;
+        }
+        .lightbox.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+        .lightbox img {
+            max-width: 90vw;
+            max-height: 85vh;
+            border-radius: var(--radius-md);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            cursor: default;
+        }
+        .lightbox-close {
+            position: absolute;
+            top: 24px;
+            right: 32px;
+            font-size: 2.5rem;
+            color: #fff;
+            cursor: pointer;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background var(--transition-fast);
+            z-index: 2;
+            line-height: 1;
+        }
+        .lightbox-close:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Masters */
+        .masters-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+        .master-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-smooth);
+            text-align: center;
+        }
+        .master-card:hover {
+            box-shadow: var(--shadow-xl);
+            transform: translateY(-5px);
+        }
+        .master-card-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.5s;
+        }
+        .master-card:hover .master-card-image {
+            transform: scale(1.04);
+        }
+        .master-card-body {
+            padding: 22px 18px;
+        }
+        .master-card-name {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+        .master-card-role {
+            font-size: 0.85rem;
+            color: var(--nude);
+            font-weight: 500;
+            margin: 4px 0 8px;
+        }
+        .master-card-info {
+            font-size: 0.8rem;
+            color: var(--gray-500);
+            line-height: 1.5;
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            max-width: 700px;
+            margin: 0 auto;
+            padding-left: 40px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 18px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--beige);
+            border-radius: 1px;
+        }
+        .timeline-step {
+            position: relative;
+            padding: 0 0 40px 40px;
+        }
+        .timeline-step:last-child {
+            padding-bottom: 0;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: -31px;
+            top: 4px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: var(--white);
+            border: 3px solid var(--nude);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--nude);
+            font-size: 0.9rem;
+            z-index: 1;
+            transition: all var(--transition-smooth);
+        }
+        .timeline-step:hover .timeline-dot {
+            background: var(--nude);
+            color: #fff;
+            box-shadow: var(--shadow-gold);
+        }
+        .timeline-step-title {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            margin-bottom: 4px;
+        }
+        .timeline-step-desc {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+            line-height: 1.5;
+        }
+
+        /* Testimonials */
+        .testimonials-slider {
+            position: relative;
+            overflow: hidden;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .testimonials-track {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+        .testimonial-slide {
+            min-width: 100%;
+            padding: 20px;
+        }
+        .testimonial-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            padding: 36px 30px;
+            box-shadow: var(--shadow-md);
+            text-align: center;
+            position: relative;
+        }
+        .testimonial-stars {
+            color: #e8c46a;
+            font-size: 1.1rem;
+            letter-spacing: 3px;
+            margin-bottom: 16px;
+        }
+        .testimonial-text {
+            font-size: 0.95rem;
+            color: var(--gray-600);
+            line-height: 1.7;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+        .testimonial-author img {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .testimonial-author-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--gray-800);
+            text-align: left;
+        }
+        .testimonial-author-date {
+            font-size: 0.78rem;
+            color: var(--gray-400);
+            text-align: left;
+        }
+        .testimonial-dots {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 24px;
+        }
+        .testimonial-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--gray-300);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            border: none;
+        }
+        .testimonial-dot.active {
+            background: var(--nude);
+            width: 28px;
+            border-radius: 20px;
+        }
+
+        /* Pricing */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .pricing-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            padding: 28px 22px;
+            box-shadow: var(--shadow-sm);
+            text-align: center;
+            transition: all var(--transition-smooth);
+            position: relative;
+        }
+        .pricing-card:hover {
+            box-shadow: var(--shadow-xl);
+            transform: translateY(-3px);
+        }
+        .pricing-card.featured {
+            border: 2px solid var(--nude);
+            box-shadow: var(--shadow-gold);
+        }
+        .pricing-card.featured::after {
+            content: 'Популярное';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--nude);
+            color: #fff;
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 5px 16px;
+            border-radius: var(--radius-full);
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+        .pricing-card-title {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            margin-bottom: 4px;
+        }
+        .pricing-card-desc {
+            font-size: 0.8rem;
+            color: var(--gray-500);
+            margin-bottom: 14px;
+            line-height: 1.4;
+        }
+        .pricing-card-price {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--nude);
+            font-family: var(--font-display);
+        }
+        .pricing-card-price span {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--gray-500);
+        }
+        .pricing-card .btn {
+            margin-top: 14px;
+            width: 100%;
+            padding: 11px 20px;
+            font-size: 0.8rem;
+            background: var(--gray-100);
+            color: var(--gray-700);
+            border-radius: var(--radius-full);
+        }
+        .pricing-card .btn:hover {
+            background: var(--nude);
+            color: #fff;
+            box-shadow: var(--shadow-gold);
+        }
+
+        /* FAQ */
+        .faq-list {
+            max-width: 760px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .faq-item {
+            background: var(--white);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-smooth);
+        }
+        .faq-item:hover {
+            box-shadow: var(--shadow-md);
+        }
+        .faq-question {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 22px 28px;
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: left;
+            gap: 16px;
+            transition: color var(--transition-fast);
+        }
+        .faq-question:hover {
+            color: var(--nude);
+        }
+        .faq-icon {
+            flex-shrink: 0;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: var(--beige-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all var(--transition-smooth);
+            font-size: 1.2rem;
+            color: var(--nude);
+            font-weight: 500;
+            line-height: 1;
+        }
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+            background: var(--nude);
+            color: #fff;
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s cubic-bezier(0.25, 0.1, 0.25, 1), padding 0.4s;
+            padding: 0 28px;
+            font-size: 0.88rem;
+            color: var(--gray-600);
+            line-height: 1.7;
+        }
+        .faq-item.active .faq-answer {
+            max-height: 300px;
+            padding: 0 28px 22px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            position: relative;
+            background: var(--gray-900);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            margin: 0 40px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            padding: 80px 40px;
+        }
+        .cta-bg {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+        }
+        .cta-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.35);
+        }
+        .cta-content {
+            position: relative;
+            z-index: 1;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .cta-title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: 0.02em;
+        }
+        .cta-subtitle {
+            font-size: 1.05rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+        .cta-section .btn-primary {
+            font-size: 1rem;
+            padding: 16px 40px;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--gray-800);
+            color: rgba(255, 255, 255, 0.7);
+            padding: 60px 40px 30px;
+            margin-top: 100px;
+        }
+        .footer-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 40px;
+        }
+        .footer-logo {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            margin-bottom: 12px;
+        }
+        .footer-about {
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.5);
+            max-width: 280px;
+        }
+        .footer h4 {
+            font-family: var(--font-display);
+            font-size: 1rem;
+            color: #fff;
+            margin-bottom: 16px;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+        }
+        .footer ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .footer a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color var(--transition-fast);
+        }
+        .footer a:hover {
+            color: var(--nude);
+        }
+        .footer-map {
+            width: 100%;
+            height: 140px;
+            border-radius: var(--radius-md);
+            background: var(--gray-700);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.4);
+            margin-top: 8px;
+            overflow: hidden;
+        }
+        .footer-map iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            filter: grayscale(0.8) brightness(0.9);
+        }
+        .footer-bottom {
+            max-width: 1280px;
+            margin: 30px auto 0;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            font-size: 0.78rem;
+            color: rgba(255, 255, 255, 0.35);
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            background: var(--white);
+            border: 1.5px solid var(--gray-200);
+            cursor: pointer;
+            z-index: 900;
+            box-shadow: var(--shadow-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            color: var(--gray-600);
+            transition: all var(--transition-smooth);
+            opacity: 0;
+            pointer-events: none;
+        }
+        .back-to-top.visible {
+            opacity: 1;
+            pointer-events: all;
+        }
+        .back-to-top:hover {
+            background: var(--nude);
+            color: #fff;
+            border-color: var(--nude);
+            box-shadow: var(--shadow-gold);
+            transform: translateY(-2px);
+        }
+
+        /* Floating CTA */
+        .floating-cta {
+            position: fixed;
+            bottom: 28px;
+            left: 28px;
+            z-index: 900;
+            background: var(--nude);
+            color: #fff;
+            border-radius: var(--radius-full);
+            padding: 13px 26px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            letter-spacing: 0.02em;
+            cursor: pointer;
+            border: none;
+            box-shadow: var(--shadow-gold);
+            transition: all var(--transition-smooth);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .floating-cta:hover {
+            background: var(--gold-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 36px rgba(200, 168, 130, 0.4);
+        }
+
+        /* Reveal */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.7s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.7s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .reveal-delay-1 {
+            transition-delay: 0.1s;
+        }
+        .reveal-delay-2 {
+            transition-delay: 0.2s;
+        }
+        .reveal-delay-3 {
+            transition-delay: 0.3s;
+        }
+        .reveal-delay-4 {
+            transition-delay: 0.4s;
+        }
+
+        /* Mobile Nav */
+        .mobile-nav {
+            position: fixed;
+            inset: 0;
+            z-index: 999;
+            background: rgba(253, 250, 247, 0.98);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 28px;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.35s;
+        }
+        .mobile-nav.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+        .mobile-nav a {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            color: var(--gray-800);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color var(--transition-fast);
+        }
+        .mobile-nav a:hover {
+            color: var(--nude);
+        }
+
+        /* Responsive */
+        @media (max-width: 1100px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                text-align: center;
+            }
+            .hero-text {
+                max-width: 100%;
+            }
+            .hero-subtitle {
+                max-width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .hero-buttons {
+                justify-content: center;
+            }
+            .hero-card {
+                max-width: 420px;
+                margin: 0 auto;
+            }
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .why-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .gallery-masonry {
+                columns: 2;
+            }
+            .masters-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .pricing-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .footer-inner {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media (max-width: 768px) {
+            .section {
+                padding: 60px 20px;
+            }
+            .header-inner {
+                padding: 0 20px;
+            }
+            .nav-links {
+                display: none;
+            }
+            .mobile-menu-btn {
+                display: flex;
+            }
+            .hero-content {
+                padding: 100px 20px 60px;
+            }
+            .hero-title {
+                font-size: 2rem;
+            }
+            .services-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 14px;
+            }
+            .why-grid {
+                grid-template-columns: 1fr;
+                gap: 14px;
+            }
+            .gallery-masonry {
+                columns: 1;
+            }
+            .masters-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 14px;
+            }
+            .pricing-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 14px;
+            }
+            .footer-inner {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+            .cta-section {
+                margin: 0 16px;
+                padding: 50px 20px;
+                border-radius: var(--radius-lg);
+            }
+            .section-title {
+                font-size: 1.6rem;
+            }
+            .hero-card {
+                padding: 20px 18px;
+                gap: 14px;
+            }
+            .hero-card-item {
+                font-size: 0.8rem;
+            }
+            .floating-cta {
+                bottom: 16px;
+                left: 16px;
+                padding: 11px 20px;
+                font-size: 0.78rem;
+            }
+            .back-to-top {
+                bottom: 16px;
+                right: 16px;
+                width: 40px;
+                height: 40px;
+            }
+        }
+        @media (max-width: 480px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            .masters-grid {
+                grid-template-columns: 1fr;
+            }
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            .hero-buttons .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+            .gallery-filters {
+                gap: 8px;
+            }
+            .gallery-filter {
+                padding: 8px 16px;
+                font-size: 0.78rem;
+            }
+            .hero-title {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Mouse Glow -->
+    <div class="mouse-glow" id="mouseGlow"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-inner">
+            <a href="#" class="logo">LUMINÉ</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#gallery">Работы</a></li>
+                    <li><a href="#masters">Мастера</a></li>
+                    <li><a href="#pricing">Прайс</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#cta-section" class="header-cta">Записаться</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#services" data-close>Услуги</a>
+        <a href="#gallery" data-close>Работы</a>
+        <a href="#masters" data-close>Мастера</a>
+        <a href="#pricing" data-close>Прайс</a>
+        <a href="#faq" data-close>FAQ</a>
+        <a href="#cta-section" data-close>Записаться</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1600&q=80" alt="Премиальный маникюр" loading="eager">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text reveal">
+                <h1 class="hero-title">Маникюр,<br>в который невозможно<br>не влюбиться</h1>
+                <p class="hero-subtitle">Современная nail-студия с идеальным сервисом, стерильностью и мастерами, которым доверяют сотни девушек.</p>
+                <div class="hero-buttons">
+                    <a href="#cta-section" class="btn btn-primary">Записаться онлайн</a>
+                    <a href="#gallery" class="btn btn-outline">Посмотреть работы</a>
+                </div>
+            </div>
+            <div class="hero-card reveal reveal-delay-2">
+                <div class="hero-card-item">
+                    <span class="hero-card-highlight">1000<span>+</span></span>
+                    <span style="align-self:center;font-size:0.9rem;color:rgba(255,255,255,0.85);">довольных клиенток</span>
+                </div>
+                <div class="hero-card-item">
+                    <span class="hero-card-icon"><svg viewBox="0 0 24 24"><path d="M12 2L3 7v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V7l-9-5z" fill="currentColor"/></svg></span>
+                    <span>Полная стерильность инструментов</span>
+                </div>
+                <div class="hero-card-item">
+                    <span class="hero-card-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" fill="none"/></svg></span>
+                    <span>Премиальные материалы</span>
+                </div>
+                <div class="hero-card-item">
+                    <span class="hero-card-icon"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z" fill="currentColor"/></svg></span>
+                    <span>Гарантия качества 7 дней</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+        <div class="section-header reveal">
+            <p class="section-label">Наши услуги</p>
+            <h2 class="section-title">Всё для красоты ваших рук</h2>
+            <p class="section-subtitle">От классического маникюра до эксклюзивного дизайна — каждый визит становится ритуалом заботы о себе.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card reveal reveal-delay-1">
+                <img class="service-card-image" src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&w=600&q=80" alt="Маникюр" loading="lazy">
+                <div class="service-card-body">
+                    <h3 class="service-card-title">Маникюр</h3>
+                    <p class="service-card-desc">Классический, аппаратный или комбинированный — идеальная форма и безупречное покрытие.</p>
+                    <p class="service-card-price">от 2 500 ₽</p>
+                    <a href="#cta-section" class="btn">Записаться</a>
+                </div>
+            </div>
+            <div class="service-card reveal reveal-delay-2">
+                <img class="service-card-image" src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=600&q=80" alt="Педикюр" loading="lazy">
+                <div class="service-card-body">
+                    <h3 class="service-card-title">Педикюр</h3>
+                    <p class="service-card-desc">Эстетичный педикюр с глубокой заботой о здоровье стоп. Полное расслабление.</p>
+                    <p class="service-card-price">от 3 200 ₽</p>
+                    <a href="#cta-section" class="btn">Записаться</a>
+                </div>
+            </div>
+            <div class="service-card reveal reveal-delay-3">
+                <img class="service-card-image" src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=600&q=80" alt="Укрепление" loading="lazy">
+                <div class="service-card-body">
+                    <h3 class="service-card-title">Укрепление</h3>
+                    <p class="service-card-desc">Укрепление натуральных ногтей гелем или акрилатиком для здорового роста.</p>
+                    <p class="service-card-price">от 1 800 ₽</p>
+                    <a href="#cta-section" class="btn">Записаться</a>
+                </div>
+            </div>
+            <div class="service-card reveal reveal-delay-1">
+                <img class="service-card-image" src="https://images.unsplash.com/photo-1589710751893-f9f3e2b25c4b?auto=format&fit=crop&w=600&q=80" alt="Наращивание" loading="lazy">
+                <div class="service-card-body">
+                    <h3 class="service-card-title">Наращивание</h3>
+                    <p class="service-card-desc">Элегантное наращивание любой длины. Естественный вид без компромиссов.</p>
+                    <p class="service-card-price">от 3 800 ₽</p>
+                    <a href="#cta-section" class="btn">Записаться</a>
+                </div>
+            </div>
+            <div class="service-card reveal reveal-delay-2">
+                <img class="service-card-image" src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&q=80" alt="Дизайн ногтей" loading="lazy">
+                <div class="service-card-body">
+                    <h3 class="service-card-title">Дизайн ногтей</h3>
+                    <p class="service-card-desc">Авторский нейл-арт: минимализм, френч, стемпинг, стразы и ручная роспись.</p>
+                    <p class="service-card-price">от 800 ₽</p>
+                    <a href="#cta-section" class="btn">Записаться</a>
+                </div>
+            </div>
+            <div class="service-card reveal reveal-delay-3">
+                <img class="service-card-image" src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80" alt="SPA-уход" loading="lazy">
+                <div class="service-card-body">
+                    <h3 class="service-card-title">SPA-уход</h3>
+                    <p class="service-card-desc">Парафинотерапия, массаж рук, питательные маски — глубокое восстановление кожи.</p>
+                    <p class="service-card-price">от 1 500 ₽</p>
+                    <a href="#cta-section" class="btn">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us -->
+    <section class="section" style="background:var(--white);max-width:100%;padding:80px 40px;" id="why-us">
+        <div style="max-width:1280px;margin:0 auto;">
+            <div class="section-header reveal">
+                <p class="section-label">Почему выбирают нас</p>
+                <h2 class="section-title">Безупречность в каждой детали</h2>
+                <p class="section-subtitle">Мы создали пространство, где качество, безопасность и эстетика становятся единым целым.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal reveal-delay-1">
+                    <div class="why-icon">🛡️</div>
+                    <h3 class="why-card-title">Полная стерильность</h3>
+                    <p class="why-card-desc">Все инструменты проходят трёхступенчатую обработку. Используем автоклавы и ультрафиолетовые стерилизаторы.</p>
+                </div>
+                <div class="why-card reveal reveal-delay-2">
+                    <div class="why-icon">✨</div>
+                    <h3 class="why-card-title">Одноразовые материалы</h3>
+                    <p class="why-card-desc">Пилки, бафы, салфетки — только одноразовые. Ваша безопасность для нас абсолютный приоритет.</p>
+                </div>
+                <div class="why-card reveal reveal-delay-3">
+                    <div class="why-icon">💎</div>
+                    <h3 class="why-card-title">Премиальные бренды</h3>
+                    <p class="why-card-desc">Работаем с Luxio, CND, OPI, Kodi и другими лидерами. Только сертифицированные материалы.</p>
+                </div>
+                <div class="why-card reveal reveal-delay-1">
+                    <div class="why-icon">👩‍🎨</div>
+                    <h3 class="why-card-title">Опытные мастера</h3>
+                    <p class="why-card-desc">Каждый мастер проходит строгий отбор и регулярное обучение. Средний опыт — 7 лет.</p>
+                </div>
+                <div class="why-card reveal reveal-delay-2">
+                    <div class="why-icon">⭐</div>
+                    <h3 class="why-card-title">Гарантия качества</h3>
+                    <p class="why-card-desc">Бесплатный ремонт покрытия в течение 7 дней. Мы уверены в результате на 100%.</p>
+                </div>
+                <div class="why-card reveal reveal-delay-3">
+                    <div class="why-icon">🔧</div>
+                    <h3 class="why-card-title">Бесплатный ремонт</h3>
+                    <p class="why-card-desc">Случайный скол? Приходите — исправим бесплатно в течение недели после процедуры.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section" id="gallery">
+        <div class="section-header reveal">
+            <p class="section-label">Наши работы</p>
+            <h2 class="section-title">Вдохновляйтесь</h2>
+            <p class="section-subtitle">Каждая работа — отражение вкуса и профессионализма наших мастеров.</p>
+        </div>
+        <div class="gallery-filters reveal">
+            <button class="gallery-filter active" data-filter="all">Все</button>
+            <button class="gallery-filter" data-filter="manicure">Маникюр</button>
+            <button class="gallery-filter" data-filter="pedicure">Педикюр</button>
+            <button class="gallery-filter" data-filter="design">Дизайн</button>
+            <button class="gallery-filter" data-filter="extension">Наращивание</button>
+        </div>
+        <div class="gallery-masonry reveal reveal-delay-1" id="galleryMasonry">
+            <a class="gallery-item" data-category="manicure" href="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&w=800&q=80" data-lightbox>
+                <img src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&w=600&q=80" alt="Маникюр nude" loading="lazy">
+                <div class="gallery-item-overlay"><span>+</span></div>
+            </a>
+            <a class="gallery-item" data-category="design" href="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80" data-lightbox>
+                <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&q=80" alt="Дизайн ногтей" loading="lazy">
+                <div class="gallery-item-overlay"><span>+</span></div>
+            </a>
+            <a class="gallery-item" data-category="pedicure" href="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=800&q=80" data-lightbox>
+                <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=600&q=80" alt="Педикюр" loading="lazy">
+                <div class="gallery-item-overlay"><span>+</span></div>
+            </a>
+            <a class="gallery-item" data-category="extension" href="https://images.unsplash.com/photo-1589710751893-f9f3e2b25c4b?auto=format&fit=crop&w=800&q=80" data-lightbox>
+                <img src="https://images.unsplash.com/photo-1589710751893-f9f3e2b25c4b?auto=format&fit=crop&w=600&q=80" alt="Наращивание" loading="lazy">
+                <div class="gallery-item-overlay"><span>+</span></div>
+            </a>
+            <a class="gallery-item" data-category="manicure" href="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80" data-lightbox>
+                <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=600&q=80" alt="Маникюр классический" loading="lazy">
+                <div class="gallery-item-overlay"><span>+</span></div>
+            </a>
+            <a class="gallery-item" data-category="design" href="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" data-lightbox>
+                <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80" alt="SPA и дизайн" loading="lazy">
+                <div class="gallery-item-overlay"><span>+</span></div>
+            </a>
+            <a class="gallery-item" data-category="pedicure" href="https://images.unsplash.com/photo-1596728325488-58c87691e9af?auto=format&fit=crop&w=800&q=80" data-lightbox>
+                <img src="https://images.unsplash.com/photo-1596728325488-58c87691e9af?auto=format&fit=crop&w=600&q=80" alt="Педикюр премиум" loading="lazy">
+                <div class="gallery-item-overlay"><span>+</span></div>
+            </a>
+            <a class="gallery-item" data-category="extension" href="https://images.unsplash.com/photo-1610992015732-2449b76344bc?auto=format&fit=crop&w=800&q=80" data-lightbox>
+                <img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?auto=format&fit=crop&w=600&q=80" alt="Наращивание ногтей" loading="lazy">
+                <div class="gallery-item-overlay"><span>+</span></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img src="" alt="Просмотр" id="lightboxImg">
+    </div>
+
+    <!-- Masters -->
+    <section class="section" id="masters" style="background:var(--white);max-width:100%;padding:80px 40px;">
+        <div style="max-width:1280px;margin:0 auto;">
+            <div class="section-header reveal">
+                <p class="section-label">Наши мастера</p>
+                <h2 class="section-title">Люди, которым доверяют</h2>
+                <p class="section-subtitle">Каждый мастер LUMINÉ — это художник с безупречным вкусом и многолетним опытом.</p>
+            </div>
+            <div class="masters-grid">
+                <div class="master-card reveal reveal-delay-1">
+                    <img class="master-card-image" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80" alt="Анна" loading="lazy">
+                    <div class="master-card-body">
+                        <h3 class="master-card-name">Анна Соколова</h3>
+                        <p class="master-card-role">Ведущий мастер · 9 лет</p>
+                        <p class="master-card-info">Специализация: сложный дизайн, френч, ручная роспись. Любит минимализм и нюд.</p>
+                    </div>
+                </div>
+                <div class="master-card reveal reveal-delay-2">
+                    <img class="master-card-image" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=500&q=80" alt="Елена" loading="lazy">
+                    <div class="master-card-body">
+                        <h3 class="master-card-name">Елена Волкова</h3>
+                        <p class="master-card-role">Мастер · 7 лет</p>
+                        <p class="master-card-info">Специализация: аппаратный маникюр, укрепление гелем. Идеальные формы.</p>
+                    </div>
+                </div>
+                <div class="master-card reveal reveal-delay-3">
+                    <img class="master-card-image" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=500&q=80" alt="Диана" loading="lazy">
+                    <div class="master-card-body">
+                        <h3 class="master-card-name">Диана Ким</h3>
+                        <p class="master-card-role">Мастер · 6 лет</p>
+                        <p class="master-card-info">Специализация: педикюр, SPA-уход. Обучалась в Сеуле. Знает всё о здоровье стоп.</p>
+                    </div>
+                </div>
+                <div class="master-card reveal reveal-delay-4">
+                    <img class="master-card-image" src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=500&q=80" alt="Мария" loading="lazy">
+                    <div class="master-card-body">
+                        <h3 class="master-card-name">Мария Белова</h3>
+                        <p class="master-card-role">Мастер · 5 лет</p>
+                        <p class="master-card-info">Специализация: наращивание, дизайн. Победительница конкурса Nail Art Moscow 2023.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="section" id="process">
+        <div class="section-header reveal">
+            <p class="section-label">Как проходит визит</p>
+            <h2 class="section-title">4 шага к идеальному маникюру</h2>
+            <p class="section-subtitle">Мы сделали процесс максимально простым и комфортным для вас.</p>
+        </div>
+        <div class="timeline reveal">
+            <div class="timeline-step">
+                <div class="timeline-dot">1</div>
+                <h3 class="timeline-step-title">Онлайн-запись</h3>
+                <p class="timeline-step-desc">Выберите услугу и удобное время на сайте или в мессенджере. Это займёт меньше минуты.</p>
+            </div>
+            <div class="timeline-step">
+                <div class="timeline-dot">2</div>
+                <h3 class="timeline-step-title">Консультация</h3>
+                <p class="timeline-step-desc">Мастер обсудит ваши пожелания, оценит состояние ногтей и предложит оптимальное решение.</p>
+            </div>
+            <div class="timeline-step">
+                <div class="timeline-dot">3</div>
+                <h3 class="timeline-step-title">Процедура</h3>
+                <p class="timeline-step-desc">В комфортном кресле, с чашкой чая или кофе, под приятную музыку — время пролетит незаметно.</p>
+            </div>
+            <div class="timeline-step">
+                <div class="timeline-dot">4</div>
+                <h3 class="timeline-step-title">Идеальный результат</h3>
+                <p class="timeline-step-desc">Безупречное покрытие, ухоженные руки и гарантия качества. Вы выйдете с улыбкой.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" id="testimonials" style="background:var(--white);max-width:100%;padding:80px 40px;">
+        <div style="max-width:1280px;margin:0 auto;">
+            <div class="section-header reveal">
+                <p class="section-label">Отзывы</p>
+                <h2 class="section-title">Что говорят наши клиентки</h2>
+                <p class="section-subtitle">Сотни девушек уже выбрали LUMINÉ. Присоединяйтесь!</p>
+            </div>
+            <div class="testimonials-slider reveal" id="testimonialsSlider">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p class="testimonial-text">«Лучшая студия в Москве! Хожу только сюда уже полгода. Идеальная чистота, приятная атмосфера и мастера — настоящие профессионалы. Анна — волшебница!»</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Клиент" loading="lazy">
+                                <div>
+                                    <div class="testimonial-author-name">Алиса М.</div>
+                                    <div class="testimonial-author-date">Постоянный клиент с 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p class="testimonial-text">«Пришла по рекомендации подруги и осталась в восторге. Стерильность на высшем уровне, материалы дорогие, результат держится уже третью неделю без сколов.»</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&q=80" alt="Клиент" loading="lazy">
+                                <div>
+                                    <div class="testimonial-author-name">Карина Т.</div>
+                                    <div class="testimonial-author-date">Клиент с февраля 2024</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p class="testimonial-text">«Дизайн, который мне сделали в LUMINÉ, собрал кучу комплиментов. Очень красиво, аккуратно и стильно. Теперь только к вам!»</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Клиент" loading="lazy">
+                                <div>
+                                    <div class="testimonial-author-name">София Л.</div>
+                                    <div class="testimonial-author-date">Новый клиент, март 2024</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p class="testimonial-text">«Педикюр у Дианы — это просто сказка. Очень внимательное отношение, всё подробно рассказывает. Ноги выглядят как после спа-курорта!»</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Клиент" loading="lazy">
+                                <div>
+                                    <div class="testimonial-author-name">Виктория Р.</div>
+                                    <div class="testimonial-author-date">Постоянный клиент</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots" id="testimonialDots">
+                    <button class="testimonial-dot active" data-slide="0"></button>
+                    <button class="testimonial-dot" data-slide="1"></button>
+                    <button class="testimonial-dot" data-slide="2"></button>
+                    <button class="testimonial-dot" data-slide="3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing">
+        <div class="section-header reveal">
+            <p class="section-label">Прайс</p>
+            <h2 class="section-title">Прозрачные цены</h2>
+            <p class="section-subtitle">Никаких скрытых платежей. Вы всегда знаете, за что платите.</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card reveal reveal-delay-1">
+                <h3 class="pricing-card-title">Маникюр</h3>
+                <p class="pricing-card-desc">Классический / аппаратный / комби</p>
+                <p class="pricing-card-price">2 500<span>₽</span></p>
+                <a href="#cta-section" class="btn">Записаться</a>
+            </div>
+            <div class="pricing-card featured reveal reveal-delay-2">
+                <h3 class="pricing-card-title">Педикюр</h3>
+                <p class="pricing-card-desc">Аппаратный + покрытие</p>
+                <p class="pricing-card-price">3 200<span>₽</span></p>
+                <a href="#cta-section" class="btn">Записаться</a>
+            </div>
+            <div class="pricing-card reveal reveal-delay-3">
+                <h3 class="pricing-card-title">Комплекс</h3>
+                <p class="pricing-card-desc">Маникюр + педикюр</p>
+                <p class="pricing-card-price">5 200<span>₽</span></p>
+                <a href="#cta-section" class="btn">Записаться</a>
+            </div>
+            <div class="pricing-card reveal reveal-delay-4">
+                <h3 class="pricing-card-title">Наращивание</h3>
+                <p class="pricing-card-desc">Гелевое / акриловое</p>
+                <p class="pricing-card-price">3 800<span>₽</span></p>
+                <a href="#cta-section" class="btn">Записаться</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" style="background:var(--white);max-width:100%;padding:80px 40px;">
+        <div style="max-width:1280px;margin:0 auto;">
+            <div class="section-header reveal">
+                <p class="section-label">FAQ</p>
+                <h2 class="section-title">Часто задаваемые вопросы</h2>
+                <p class="section-subtitle">Всё, что вы хотели знать о нашем сервисе.</p>
+            </div>
+            <div class="faq-list reveal">
+                <div class="faq-item">
+                    <button class="faq-question">Как проходит стерилизация инструментов?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer">Все инструменты проходят трёхступенчатую обработку: дезинфекция в растворе, очистка в ультразвуковой ванне и стерилизация в автоклаве при температуре 134°C. Для каждого клиента используется стерильный пакет, вскрываемый при вас.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Сколько держится покрытие?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer">В среднем 3–4 недели. Мы используем премиальные материалы Luxio и CND, которые обеспечивают стойкость и блеск. При бережном отношении покрытие может держаться до 5 недель.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Что входит в гарантию 7 дней?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer">Если в течение 7 дней после процедуры появился скол или отслойка, мы бесплатно исправим дефект. Гарантия распространяется на все виды покрытия.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Можно ли прийти с детьми?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer">Да, в студии есть небольшая детская зона с игрушками и раскрасками. Однако для комфорта всех гостей мы рекомендуем по возможности планировать визит без детей.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Какие бренды материалов вы используете?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer">Мы работаем исключительно с сертифицированными премиальными брендами: Luxio, CND Shellac, OPI GelColor, Kodi Professional, Beauty-Free. Все материалы гипоаллергенны.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Нужно ли записываться заранее?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer">Да, мы работаем по записи. Это позволяет уделить каждой клиентке максимум внимания без спешки. Записаться можно онлайн, через мессенджеры или по телефону за 30 секунд.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Есть ли парковка у студии?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer">Да, рядом со студией есть бесплатная городская парковка, а также подземный паркинг в 2 минутах ходьбы. Для клиентов действует скидка на паркинг — 2 часа бесплатно.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Можно ли оплатить картой?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer">Конечно! Мы принимаем наличные, банковские карты Visa/Mastercard/Мир, Apple Pay, Google Pay и переводы по QR-коду. Выдаём чеки.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Что делать, если я опаздываю?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer">Просто предупредите нас по телефону или в мессенджере. Мы постараемся сдвинуть запись, но если опоздание превышает 20 минут, может потребоваться сокращение процедуры или перенос.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="cta-section">
+        <div class="cta-bg">
+            <img src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&w=1400&q=80" alt="CTA фон" loading="lazy">
+        </div>
+        <div class="cta-content reveal">
+            <h2 class="cta-title">Пора побаловать себя</h2>
+            <p class="cta-subtitle">Запишитесь сегодня и получите идеальный маникюр без ожидания. Первый визит — со скидкой 15%.</p>
+            <a href="#" class="btn btn-primary">Записаться онлайн</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div>
+                <div class="footer-logo">LUMINÉ</div>
+                <p class="footer-about">Премиальная студия маникюра и педикюра в центре Москвы. Идеальный сервис, стерильность и мастера, которым доверяют.</p>
+            </div>
+            <div>
+                <h4>Услуги</h4>
+                <ul>
+                    <li><a href="#services">Маникюр</a></li>
+                    <li><a href="#services">Педикюр</a></li>
+                    <li><a href="#services">Укрепление</a></li>
+                    <li><a href="#services">Наращивание</a></li>
+                    <li><a href="#services">Дизайн</a></li>
+                    <li><a href="#services">SPA-уход</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <ul>
+                    <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+                    <li><a href="https://wa.me/74951234567">WhatsApp</a></li>
+                    <li><a href="https://t.me/lumine_studio">Telegram</a></li>
+                    <li><a href="https://instagram.com/lumine_studio">Instagram</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Адрес</h4>
+                <p style="font-size:0.85rem;color:rgba(255,255,255,0.5);margin-bottom:8px;">ул. Большая Дмитровка, 20/5<br>Москва, 107031</p>
+                <p style="font-size:0.8rem;color:rgba(255,255,255,0.4);margin-bottom:10px;">Пн–Пт: 09:00 – 21:00<br>Сб–Вс: 10:00 – 20:00</p>
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.5!2d37.6173!3d55.7558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQ1JzIxLjAiTiAzN8KwMzcnMDIuMyJF!5e0!3m2!1sru!2sru!4v1600000000000" allowfullscreen="" loading="lazy" title="Карта"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 LUMINÉ. Все права защищены. Премиальная студия маникюра и педикюра.
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Наверх">↑</button>
+
+    <!-- Floating CTA -->
+    <a href="#cta-section" class="floating-cta" id="floatingCta">💅 Записаться</a>
+
+    <script>
+        (function() {
+            // Mouse Glow
+            const mouseGlow = document.getElementById('mouseGlow');
+            document.addEventListener('mousemove', (e) => {
+                mouseGlow.style.left = e.clientX + 'px';
+                mouseGlow.style.top = e.clientY + 'px';
+            });
+
+            // Sticky Header
+            const header = document.getElementById('header');
+            const backToTop = document.getElementById('backToTop');
+            const floatingCta = document.getElementById('floatingCta');
+            window.addEventListener('scroll', () => {
+                const scrolled = window.scrollY > 50;
+                header.classList.toggle('scrolled', scrolled);
+                backToTop.classList.toggle('visible', window.scrollY > 600);
+                if (window.scrollY > 600) {
+                    floatingCta.style.opacity = '1';
+                    floatingCta.style.pointerEvents = 'all';
+                } else {
+                    floatingCta.style.opacity = '1';
+                }
+            });
+
+            // Back to Top
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            // Mobile Menu
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileNav = document.getElementById('mobileNav');
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileNav.classList.toggle('active');
+            });
+            document.querySelectorAll('[data-close]').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileNav.classList.remove('active');
+                });
+            });
+
+            // Ripple Effect on buttons
+            document.querySelectorAll('.btn').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    const ripple = document.createElement('span');
+                    ripple.className = 'btn-ripple';
+                    const rect = this.getBoundingClientRect();
+                    const size = Math.max(rect.width, rect.height);
+                    ripple.style.width = ripple.style.height = size + 'px';
+                    ripple.style.left = (e.clientX - rect.left - size / 2) + 'px';
+                    ripple.style.top = (e.clientY - rect.top - size / 2) + 'px';
+                    this.appendChild(ripple);
+                    ripple.addEventListener('animationend', () => ripple.remove());
+                });
+            });
+
+            // Reveal Animation
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+            document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+            // Gallery Filters
+            const filterBtns = document.querySelectorAll('.gallery-filter');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    const filter = btn.dataset.filter;
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.dataset.category ===
+                            filter) {
+                            item.style.display = 'block';
+                            item.style.opacity = '1';
+                        } else {
+                            item.style.display = 'none';
+                            item.style.opacity = '0';
+                        }
+                    });
+                });
+            });
+
+            // Lightbox
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightboxImg');
+            const lightboxClose = document.getElementById('lightboxClose');
+            document.querySelectorAll('[data-lightbox]').forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    lightboxImg.src = this.href;
+                    lightbox.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+            lightboxClose.addEventListener('click', () => {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+            lightbox.addEventListener('click', function(e) {
+                if (e.target === lightbox) {
+                    lightbox.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                    lightbox.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+
+            // Testimonials Slider
+            const track = document.getElementById('testimonialsTrack');
+            const dots = document.querySelectorAll('#testimonialDots .testimonial-dot');
+            let currentSlide = 0;
+            const totalSlides = dots.length;
+            let autoplayInterval;
+
+            function goToSlide(index) {
+                currentSlide = index;
+                track.style.transform = `translateX(-${currentSlide * 100}%)`;
+                dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+            }
+
+            dots.forEach(dot => {
+                dot.addEventListener('click', () => {
+                    goToSlide(parseInt(dot.dataset.slide));
+                    resetAutoplay();
+                });
+            });
+
+            function nextSlide() {
+                goToSlide((currentSlide + 1) % totalSlides);
+            }
+
+            function resetAutoplay() {
+                clearInterval(autoplayInterval);
+                autoplayInterval = setInterval(nextSlide, 4000);
+            }
+            autoplayInterval = setInterval(nextSlide, 4000);
+
+            // Touch swipe for slider
+            let touchStartX = 0;
+            track.addEventListener('touchstart', (e) => {
+                touchStartX = e.touches[0].clientX;
+            });
+            track.addEventListener('touchend', (e) => {
+                const diff = touchStartX - e.changedTouches[0].clientX;
+                if (Math.abs(diff) > 50) {
+                    if (diff > 0 && currentSlide < totalSlides - 1) {
+                        goToSlide(currentSlide + 1);
+                    } else if (diff < 0 && currentSlide > 0) {
+                        goToSlide(currentSlide - 1);
+                    }
+                    resetAutoplay();
+                }
+            });
+
+            // FAQ Accordion
+            document.querySelectorAll('.faq-question').forEach(question => {
+                question.addEventListener('click', () => {
+                    const faqItem = question.parentElement;
+                    const isActive = faqItem.classList.contains('active');
+                    document.querySelectorAll('.faq-item').forEach(item => item
+                        .classList.remove('active'));
+                    if (!isActive) {
+                        faqItem.classList.add('active');
+                    }
+                });
+            });
+
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href === '#') return;
+                    const target = document.querySelector(href);
+                    if (target) {
+                        e.preventDefault();
+                        const headerHeight = header.offsetHeight + 20;
+                        const targetPosition = target.getBoundingClientRect().top + window
+                            .pageYOffset - headerHeight;
+                        window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                        mobileNav.classList.remove('active');
+                    }
+                });
+            });
+
+            // Lazy loading native
+            if ('loading' in HTMLImageElement.prototype) {
+                document.querySelectorAll('img[loading="lazy"]').forEach(img => {
+                    img.src = img.dataset.src || img.src;
+                });
+            }
+        })();
+    </script>
+</body>
+</html>
